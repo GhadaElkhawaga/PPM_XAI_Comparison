@@ -6,12 +6,12 @@ The main file calling other modules in "GeneratingExplanations.py"
 - To compare several runs of the same experiments run: "TrialsComparisons.py"
 - To compare execution times, run: "timing_comparisons.py"
 - For data exploration, run:
-            - EDA_and_profiling.py 
-            - mutual_info_encoded.py
+            -- EDA_and_profiling.py 
+            -- mutual_info_encoded.py
 - for generating general statistics tables and counts, run:
-            - DatasetStatisticsGeneration.py
-            - correlations_counting.py
-            - counts_after_encoding.py
+            -- DatasetStatisticsGeneration.py
+            -- correlations_counting.py
+            -- counts_after_encoding.py
 - for necessary data preparations (which should be applied separately), run:
-            - encoded_datasets_withLabel.py
-            - Discretize.py
+            -- encoded_datasets_withLabel.py
+            -- Discretize.py
