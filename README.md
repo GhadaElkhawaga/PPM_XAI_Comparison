@@ -1,5 +1,6 @@
 # PPMXIAComparison
-This repository contains experiments code of our paper with the title: __"Explainability of Predictive Process Monitoring results: Techniques, Experiments and Lessons Learned"__
+This repository contains experiments code of our paper with the title: __"Explainability of Predictive Process Monitoring results: Techniques, Experiments and Lessons Learned"__. Experiments implemented by the code in this repo adhere to the following taxonomy:
+
 The main file calling other modules in "GeneratingExplanations.py"
 - To compare global explanations run "XIA_Comparisons.py"
 - To compare local explanations run "XIA_local_Comparisons.py"
