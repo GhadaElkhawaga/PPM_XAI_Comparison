@@ -3,7 +3,7 @@ This repository contains experiments code of our paper with the title: __"Explai
 The main file calling other modules in "GeneratingExplanations.py"
 - To compare global explanations run "XIA_Comparisons.py"
 - To compare local explanations run "XIA_local_Comparisons.py"
-- To compare several runs of the same experiments run: "TrialsComparisons.py"
+- To compare several important features according to several runs of the same perdictive model: "TrialsComparisons.py"
 - To compare execution times, run: "timing_comparisons.py"
 - For data exploration, run:
   - EDA_and_profiling.py 
