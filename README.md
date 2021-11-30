@@ -1,3 +1,4 @@
+![Taxonomy2](https://user-images.githubusercontent.com/48477434/144080560-adfd1f32-c39a-40e9-97e1-d875e203ded4.jpg)
 # PPMXIAComparison
 This repository contains experiments code of our paper with the title: __"Explainability of Predictive Process Monitoring results: Techniques, Experiments and Lessons Learned"__. Experiments implemented by the code in this repo adhere to the following taxonomy:
 
