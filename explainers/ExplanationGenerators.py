@@ -164,7 +164,6 @@ def explain_local_instances(artefacts_dir, dataset_ref, resexpfile, explanationf
         # generating stability indices for 1 of each 10 explanations
         if (round_count % j) == 0:
             csi, vsi = limeexplainer.check_stability(n_calls=10, **expparams, index_verbose=False)
-            explanation.show_in_notebook(show_table=True)
             xx = "explanation_%s_%s.html" % (case_id[0], dataset_name)
             explanation.save_to_file(os.path.join(Lime_dir, xx))
         exptime = time.time() - start_explanation
