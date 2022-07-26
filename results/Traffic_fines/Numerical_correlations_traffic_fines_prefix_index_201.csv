@@ -1,0 +1,9 @@
+;static__amount;static__points;index__timesincemidnight_0;index__month_0;index__weekday_0;index__hour_0;index__open_cases_0;encoded_label
+static__amount;1.0;0.245;0.013;0.001;-0.046;0.013;0.005;0.076
+static__points;0.245;1.0;0.02;0.009;-0.033;0.02;0.057;0.063
+index__timesincemidnight_0;0.013;0.02;1.0;-0.173;-0.062;1.0;0.07;-0.006
+index__month_0;0.001;0.009;-0.173;1.0;0.009;-0.173;0.347;-0.007
+index__weekday_0;-0.046;-0.033;-0.062;0.009;1.0;-0.062;0.018;-0.022
+index__hour_0;0.013;0.02;1.0;-0.173;-0.062;1.0;0.07;-0.006
+index__open_cases_0;0.005;0.057;0.07;0.347;0.018;0.07;1.0;0.013
+encoded_label;0.076;0.063;-0.006;-0.007;-0.022;-0.006;0.013;1.0
