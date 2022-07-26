@@ -1,0 +1,8 @@
+;static__case:RequestedAmount;index__timesincemidnight_0;index__month_0;index__weekday_0;index__hour_0;index__open_cases_0;encoded_label
+static__case:RequestedAmount;1.0;-0.001;0.079;0.01;-0.001;0.041;-0.015
+index__timesincemidnight_0;-0.001;1.0;-0.028;0.009;0.998;-0.031;0.008
+index__month_0;0.079;-0.028;1.0;-0.005;-0.028;0.624;0.016
+index__weekday_0;0.01;0.009;-0.005;1.0;0.009;-0.01;-0.011
+index__hour_0;-0.001;0.998;-0.028;0.009;1.0;-0.031;0.007
+index__open_cases_0;0.041;-0.031;0.624;-0.01;-0.031;1.0;0.004
+encoded_label;-0.015;0.008;0.016;-0.011;0.007;0.004;1.0
