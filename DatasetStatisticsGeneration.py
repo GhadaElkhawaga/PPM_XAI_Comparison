@@ -146,9 +146,9 @@ for dref in drefs:
                            .apply(lambda y: "__".join(list(y))).unique())
     n_static_cat_levels = 0
     n_dynamic_cat_levels = 0
-    for _, col in enumerate(dm.keys_dynamic_cat_cols):
+    for _, col in enumerate(dm.dynamic_cat_cols):
       n_dynamic_cat_levels += len(df[col].unique())
-    for _, col in enumerate(dm.keys_static_cat_cols):
+    for _, col in enumerate(dm.static_cat_cols):
       n_static_cat_levels += len(df[col].unique())
     # to generate files with num of unique values in columns:
     unique_values = df.nunique(dropna=False)
