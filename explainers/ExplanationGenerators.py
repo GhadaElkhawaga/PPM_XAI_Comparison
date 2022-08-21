@@ -414,7 +414,7 @@ def ALE_Computing(training_df, cls, ffeatures, dataset_name, method_name, cls_me
     output a file with a list of features highly correlated with the target and a dictionary of features correlated with each other
     """
 
-    ALE_dir = os.path.join(self.artefacts_dir, 'ALE_%s_%s_%s' % (self.dataset_name, self.cls_method, self.bkt_enc))
+    ALE_dir = os.path.join(artefacts_dir, 'ALE_%s_%s_%s' % (dataset_name, cls_method, method_name))
     if not os.path.exists(ALE_dir):
         os.makedirs(ALE_dir)
     count_plot_dir = os.path.join(ALE_dir, 'Count_plots')
