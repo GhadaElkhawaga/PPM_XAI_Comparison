@@ -4,6 +4,8 @@ This repository contains experiments code of two papers with the titles:
 -  __"XAI in the Context of Predictive Process Monitoring: An Empirical Analysis Framework"__. In this paper, a framework is provided to enable studying the effect of different Predictive Process Monitoring (PPM)-related settings and Machine Learning model-related choices on characteristics and expressiveness of resulting explanations. In addition, A comparison is conducted to study how different explainability methods characteristics can shape resulting explanations and enable reflecting underlying model reasoning process. This paper is available at: https://www.mdpi.com/1999-4893/15/6/199, and can be cited as follows: 
 "Elkhawaga, G.; Abuelkheir, M.; Reichert, M. XAI in the Context of Predictive Process Monitoring: An Empirical Analysis Framework. Algorithms 2022, 15. https://doi.org/https://doi.org/10.3390/a15060199."
 
+We would like to thank the authors of "Outcome-Oriented Predictive Process Monitoring: Review and Benchmark" for making their code available through:  https://github.com/irhete/predictive-monitoring-benchmark. We re-use the prediction-generation elements from this repository.
+
 Experiments implemented by the code in this repo adhere to the following taxonomy:
 
 ![Taxonomy2](https://user-images.githubusercontent.com/48477434/144080560-adfd1f32-c39a-40e9-97e1-d875e203ded4.jpg)
